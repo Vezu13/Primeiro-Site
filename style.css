@@ -19,3 +19,20 @@ color:blue;
 #javascript{
     color:yellow;
 }
+
+button{
+    background-color: rgb(114, 0, 44);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+span{
+font-size: 20x;
+color: blueviolet;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}

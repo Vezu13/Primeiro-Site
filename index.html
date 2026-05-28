@@ -33,9 +33,19 @@
 <h3>sobre mim</h3>
 <p>Salve o progreso aqui é o Vezu, sou aluno de 1Ads</p>
 <img src="image copy.png" alt="" width="300">
+<button>☯️<span>0</span></button>
 </div>
 
+<script>
+const botao = document.querySelector("button")
+botao.addEventListener("click" , curtir)
 
+
+funtion curtir(){
+let curtidas = document.querySelector("span")
+curtidas.textContent++;
+}
+</script>
 
    
 </body>
